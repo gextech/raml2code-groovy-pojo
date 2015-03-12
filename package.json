@@ -1,6 +1,6 @@
 {
   "name": "raml2code-groovy-pojo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Groovy pojo generator from RAML Spec",
   "main": "lib/groovy-pojo/index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   "homepage": "https://github.com/gextech/raml2code-groovy-pojo",
   "devDependencies": {
     "chai": "^1.10.0",
-    "data2code": "0.0.4",
     "del": "^1.1.1",
     "glob": "^4.3.5",
     "gulp": "^3.8.10",
@@ -33,15 +32,14 @@
     "gulp-jasmine": "^1.0.1",
     "gulp-mocha": "2.0.0",
     "gulp-util": "3.0.1",
-    "json-schema-2-groovy-pojo": "0.0.4",
     "mocha": "^2.0.1",
-    "raml2code-fixtures": "0.0.8",
+    "raml2code-fixtures": "0.0.11",
     "raml2code-utils": "0.0.2",
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
     "camel-case": "^1.1.1",
-    "json-schema-2-groovy-pojo": "0.0.4",
+    "json-schema-2-groovy-pojo": "0.0.5",
     "lodash": "^3.3.1",
     "pascal-case": "^1.1.0",
     "raml2code-utils": "0.0.2"
